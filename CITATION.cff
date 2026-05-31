@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "QML-2D-Materials"
+message: "Q2DM project repository. Dataset and method references are listed in docs/bibliography.md."
+type: software
+authors:
+  - family-names: Malviya
+    given-names: Shivansh
+year: 2026
+license: MIT
+repository-code: "https://github.com/Shivansh-Malviya/QML-2D-Materials"

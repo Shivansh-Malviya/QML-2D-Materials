@@ -1,0 +1,5 @@
+QML-2D-Materials notice
+
+This repository contains original project code, documentation, and selected result artifacts for the Q2DM project.
+
+Third-party datasets, scientific paper PDFs, upstream database content, and generated checkpoint binaries are not included. Dataset-derived plots and metrics should be read with the citation and provenance boundaries described in THIRD_PARTY_DATA.md and docs/bibliography.md.

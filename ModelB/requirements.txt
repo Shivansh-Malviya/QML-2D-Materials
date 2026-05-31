@@ -1,0 +1,24 @@
+# Q2DM_v2 dependency snapshot.
+
+# Core package constraints.
+torch==2.5.1
+sympy==1.13.1
+torch-geometric>=2.4
+pennylane>=0.34
+pymatgen>=2024.1
+scipy>=1.10
+numpy>=1.24,<2.0
+matplotlib>=3.7
+pytest>=8.0
+
+# PyG extension package names. Wheel compatibility depends on the local torch build.
+torch-cluster
+torch-scatter
+torch-sparse
+
+# Optional electronegativity fallback; requires numpy<2.0.
+# mendeleev>=0.15
+
+# Optional GPU quantum simulation packages.
+# pennylane-lightning[gpu]
+# custatevec-cu12

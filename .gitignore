@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments and local config
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+.envs/
+
+# Notebooks and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Generated run outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+*.log
+*.pt
+*.pth
+*.npy
+
+# Local dataset installs
+ModelA/data/*.npz
+ModelB/data/raw/*.json
+ModelB/data/processed/*.npz
+ModelC/data/raw/*.json
+
+# Large local-only reference copies
+references/papers/*.pdf

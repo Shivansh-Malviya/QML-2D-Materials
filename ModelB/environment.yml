@@ -1,0 +1,20 @@
+name: q2dm
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - sympy==1.13.1
+  - pyg::torch-geometric>=2.4
+  - numpy>=1.24,<2.0
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - pytest>=8.0
+  - pip
+  - pip:
+    - pennylane>=0.34
+    - pymatgen>=2024.1
+    # - mendeleev>=0.15  # optional
